@@ -1,0 +1,163 @@
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #EEF2FF 0%, #F3F4F6 100%);
+  padding: 20px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #111827;
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 384px;
+  margin-bottom: 16px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 16px;
+  background: #F9FAFB;
+  border: 1px solid #6366F1;
+  border-radius: 99px;
+  font-size: 16px;
+  color: #374151;
+}
+
+.form-control::placeholder {
+  color: #9CA3AF;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #6366F1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
+}
+
+.error {
+  color: #EF4444;
+  font-size: 14px;
+  margin-top: 4px;
+  text-align: left;
+}
+
+.submit-button {
+  width: 100%;
+  max-width: 384px;
+  padding: 12px;
+  background: #6366F1;
+  border: none;
+  border-radius: 99px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background: #4F46E5;
+}
+/* ... существующие стили ... */
+
+.auth-link {
+  margin-top: 16px;
+  text-align: center;
+  color: #6B7280;
+  font-size: 14px;
+}
+
+.auth-link a {
+  color: #6366F1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-link a:hover {
+  text-decoration: underline;
+}
+.dashboard-container {
+  min-height: 100vh;
+  background: #F3F4F6;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  background: #EF4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dashboard-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.upload-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.file-upload {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.upload-button {
+  padding: 0.5rem 1rem;
+  background: #6366F1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.upload-button:disabled {
+  background: #9CA3AF;
+  cursor: not-allowed;
+}
+
+.upload-status {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
